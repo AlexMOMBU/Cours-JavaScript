@@ -1,1 +1,6 @@
-console.log("hello");
+
+var x = 12;
+var y = 5;
+x = x+y;
+
+    console.log(x);
