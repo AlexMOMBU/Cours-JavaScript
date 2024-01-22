@@ -17,7 +17,7 @@
 
 
   // 49- les conditions
-var speed = 90
+/*var speed = 90
 if (speed <80) 
 {
     console.log('tu roules à la bonne vitesse');
@@ -41,4 +41,21 @@ var favoriteColor = blue
       console.log("jaimerai bien une voiture rouge"); 
    default: 
       console.log("je ne connais pas ta couleur")    
+}*/
+
+
+// 51- Les fonctions 
+
+var a =5;
+var b =6;
+
+function multiplier(number1,number2)
+{
+   return number1*number2;
 }
+
+var a=5;
+var b=6;
+
+result = multiplier(a,b);
+console.log(result);
