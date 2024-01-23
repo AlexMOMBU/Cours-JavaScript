@@ -46,7 +46,7 @@ var favoriteColor = blue
 
 // 51- Les fonctions 
 
-var a =5;
+/*var a =5;
 var b =6;
 
 function multiplier(number1,number2)
@@ -58,4 +58,18 @@ var a=5;
 var b=6;
 
 result = multiplier(a,b);
-console.log(result);
+console.log(result);*/
+
+// 52 - les scopes
+
+var a =5;
+var b =6;
+var result = multiplier(a,b)
+
+function multiplier(number1,number2)
+{
+   var resultMultiplier = number1*number2;
+   return resultMultiplier;
+}
+
+console.log(resultMultiplier);
