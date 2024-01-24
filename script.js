@@ -73,3 +73,6 @@ function multiplier(number1,number2)
 }
 
 console.log(resultMultiplier);
+
+ // 53 les arrays (tableaux)
+
