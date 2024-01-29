@@ -62,7 +62,7 @@ console.log(result);*/
 
 // 52 - les scopes
 
-var a =5;
+/*var a =5;
 var b =6;
 var result = multiplier(a,b)
 
@@ -72,7 +72,23 @@ function multiplier(number1,number2)
    return resultMultiplier;
 }
 
-console.log(resultMultiplier);
+console.log(resultMultiplier);*/
 
  // 53 les arrays (tableaux)
+
+ //déclaration et création d'un array
+ var fruit = [ "pomme", "banane", "orange", "citron"];
+ //Pour connaitre la position d'un élément
+ console.log(fruit[0]);
+//fonction pour rajouter un élément au tableau (array)
+fruit.push("mangue")
+console.log(fruit)
+//"pop" fonction pour enlever un élément au tableau (array) '
+console.log(fruit); /*avant le "pop" on a mangue */
+fruit.pop();
+console.log(fruit)/*apres le "pop" on a plus mangue */
+//fonction "slice": Fonction selectionne sur un intervalle non inclu 
+var agrume=fruit.slice(2,4)
+
+
 
