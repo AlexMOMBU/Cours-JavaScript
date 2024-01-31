@@ -92,6 +92,21 @@ console.log(fruit); /*avant le "pop" on a mangue */
 
 //54 les Objets
 
+//syntaxhe des objects
+//var object ={
+  // propertyName1: propertyValue1, // <-- il y'a le nom de la propriété et sa valeur
+   //propertyName2: propertyValue2, 
+   //methode1: fonction()
+//};
+//Exemple:
+var dog ={
+   name:"Anpaman",
+   color:"white",
+   age:2 
+};
+console.log(dog.name); // 1ere possibilité
+console.log(dog)
+
 
 
 
