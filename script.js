@@ -99,13 +99,37 @@ console.log(fruit); /*avant le "pop" on a mangue */
    //methode1: fonction()
 //};
 //Exemple:
-var dog ={
+/*var dog ={
    name:"Anpaman",
    color:"white",
    age:2 
 };
 console.log(dog.name); // 1ere possibilité
-console.log(dog)
+console.log(dog)*/
+
+
+//55- LES FONCTIONS CONSTRUCTEURS
+
+function Dog(name, color, age)
+{
+   this.name = name;
+   this.color=color;
+   this.age=age;
+   this.aboie= function()
+   {
+      console.log("wouaf " + this.name)
+   };
+}
+
+var petitCaniche = new Dog("Anpaman", "white", 2);
+
+console.log(petitCaniche);
+
+//si je veux créer un autre chien
+var grosChien = new Dog("Zeus", "black", 5);
+console.log(grosChien);
+
+petitCaniche.aboie();
 
 
 
